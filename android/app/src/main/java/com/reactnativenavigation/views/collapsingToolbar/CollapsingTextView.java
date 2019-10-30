@@ -5,10 +5,11 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.support.annotation.CheckResult;
-import android.support.annotation.FloatRange;
+
+import androidx.annotation.CheckResult;
+import androidx.annotation.FloatRange;
+import androidx.appcompat.widget.TintTypedArray;
 import androidx.core.widget.TextViewCompat;
-import android.support.v7.widget.TintTypedArray;
 import android.text.TextPaint;
 import android.text.TextUtils;
 import android.view.animation.DecelerateInterpolator;
