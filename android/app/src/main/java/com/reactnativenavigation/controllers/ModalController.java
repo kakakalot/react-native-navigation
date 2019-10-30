@@ -1,8 +1,9 @@
 package com.reactnativenavigation.controllers;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.Promise;

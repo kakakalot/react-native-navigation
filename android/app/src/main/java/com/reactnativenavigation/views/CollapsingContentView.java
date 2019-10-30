@@ -2,9 +2,10 @@ package com.reactnativenavigation.views;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.support.annotation.Nullable;
 import android.view.MotionEvent;
 import android.view.View;
+
+import androidx.annotation.Nullable;
 
 import com.reactnativenavigation.params.NavigationParams;
 import com.reactnativenavigation.views.collapsingToolbar.CollapseAmount;

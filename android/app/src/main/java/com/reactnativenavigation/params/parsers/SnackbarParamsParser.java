@@ -2,8 +2,8 @@ package com.reactnativenavigation.params.parsers;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.reactnativenavigation.params.AppStyle;
 import com.reactnativenavigation.params.SnackbarParams;
 import com.reactnativenavigation.params.StyleParams;
@@ -23,8 +23,8 @@ public class SnackbarParamsParser extends Parser {
 
     private int getDuration(String duration) {
         switch (duration) {
-            case "short":
-                return Snackbar.LENGTH_SHORT;
+//            case "short":
+//                return Snackbar.LENGTH_SHORT;
             case "long":
                 return Snackbar.LENGTH_LONG;
             case "indefinite":

@@ -1,10 +1,10 @@
 package com.reactnativenavigation.views;
 
-import android.support.design.widget.Snackbar;
 import android.text.Html;
 import android.text.Spanned;
 import android.view.View;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.reactnativenavigation.NavigationApplication;
 import com.reactnativenavigation.params.SnackbarParams;
 

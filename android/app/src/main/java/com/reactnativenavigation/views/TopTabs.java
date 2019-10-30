@@ -3,11 +3,11 @@ package com.reactnativenavigation.views;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.Typeface;
-import android.support.design.widget.TabLayout;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.google.android.material.tabs.TabLayout;
 import com.reactnativenavigation.params.StyleParams;
 import com.reactnativenavigation.views.utils.TopTabsIconColorHelper;
 

@@ -2,9 +2,10 @@ package com.reactnativenavigation.views;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
-import android.support.design.widget.FloatingActionButton;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;
 

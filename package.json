@@ -44,13 +44,9 @@
     "lodash": "4.x.x"
   },
   "devDependencies": {
-    "babel-cli": "6.x.x",
-    "babel-core": "6.x.x",
-    "babel-eslint": "7.x.x",
-    "babel-jest": "18.x.x",
-    "babel-polyfill": "6.x.x",
-    "babel-preset-react-native": "1.x.x",
-    "babel-register": "6.x.x",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-export-default-from": "7.2.0",
+    "@babel/plugin-proposal-export-namespace-from": "7.2.0",
     "eslint": "3.x.x",
     "eslint-plugin-babel": "3.x.x",
     "eslint-plugin-react": "6.x.x",
@@ -59,8 +55,8 @@
     "jest-cli": "18.x.x",
     "jest-react-native": "18.x.x",
     "prop-types": "^15.5.10",
-    "react": "16.0.0-alpha.6",
-    "react-native": "0.43.0",
+    "react": "16.9.0",
+    "react-native": "0.61.2",
     "react-test-renderer": "15.4.2",
     "semver": "5.x.x"
   },
